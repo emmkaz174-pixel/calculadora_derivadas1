@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Derivadas Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-card">
+        <header>
+            <h1>f'(x) Calculadora</h1>
+            <p>Derivadas Numéricas</p>
+        </header>
+        
+        <div class="input-group">
+            <label>Función f(x)</label>
+            <input type="text" id="funcion">
+        </div>
+
+        <div class="input-group">
+            <label>Punto de evaluación (x)</label>
+            <input type="text" id="x_val">
+        </div>
+
+        <div class="button-group">
+            <button id="btn-calcular" class="btn-primary">Calcular f'(x)</button>
+            <button id="btn-borrar" class="btn-secondary">Borrar</button>
+        </div>
+
+        <div class="result-area">
+            <p class="result-label">Resultado:</p>
+            <span id="resultado">--</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
